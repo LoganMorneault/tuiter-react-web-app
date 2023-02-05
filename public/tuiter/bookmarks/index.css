@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    margin-left: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wd-bookmarks-header-border {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(47,51,54);
+    margin-top: -10px; /* Removes whitespace above header */
+}
+
+.wd-bookmarks-header-div {
+    padding-top: 12px;
+}
+
+.wd-bookmarks-header {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: -14px;
+}
+
+.wd-bookmarks-handle {
+    font-size: 13px;
+    margin-left: 16px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-bookmarks-profile-pic {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+.wd-bookmarks-body-parent {
+    display: flex;
+    padding-top: 12px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(47,51,54);
+}
+
+.wd-bookmarks-body-content-column {
+    margin-left: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmarks-username {
+    font-size:15px;
+    color: white;
+    margin-top: 0px; /* Pixel pushing because of a gap above text content */
+    margin-bottom: -12px;
+}
+
+.wd-bookmarks-dark-text {
+    color: rgb(110, 118, 125);
+    font-size:14px;
+}
+
+.wd-bookmarks-post-content {
+    font-size:15px;
+    color:white;
+    width: 506px;
+}
+
+.wd-bookmarks-thumbnail-image {
+    margin-top:12px;
+    width: 506px;
+    height: 264px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color:rgb(110, 118, 125);
+    margin-bottom: -4px;
+}
+
+.wd-bookmarks-embed-content-container {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 506px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(110, 118, 125);
+}
+
+.wd-bookmarks-embed-title {
+    font-size:15px;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-bookmarks-embed-text {
+    color: rgb(110, 118, 125);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmarks-embed-icons-parent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 506px;
+    margin: -7px;
+}
+
+.wd-bookmarks-embed-icon {
+    color: rgb(110, 118, 125);
+}
+
+.wd-bookmarks-embed-icon-text {
+    padding-left: 12px;
+}
+
+.wd-bookmarks-liked-icon {
+    color: red;
+}
+
+.wd-bookmarks-embed-anchor {
+    text-decoration: none;
+}
