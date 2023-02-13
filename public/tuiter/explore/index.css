@@ -1,11 +1,28 @@
 body {
-    background-color: black;
-    border-color: rgb(47,51,54);
-    margin-left: 16px;
+    /* border-color: rgb(47,51,54); */
+    /*margin-left: 16px;*/
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: white;
 }
+
+.wd-search-bar {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.wd-search-icon {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.wd-image-text {
+    color: white;
+    font-size: 24px;
+    /* Bootstrap requires some SASS configuration that I don't think I have access to. */
+    left: 10px;
+    bottom: -5px;
+}
+
 
 .wd-A-parent-div {
     height: 24px;
@@ -56,31 +73,28 @@ body {
 }
 
 .wd-suggested-large-text {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     margin: -10px 0px;
 }
 
 .wd-suggested-parent-div {
-    float: left;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    width: calc(100vw - 32px);
-    border-color: rgb(47,51,54);
+    border: 1px solid;
+    border-color: darkgray;
 }
 
 .wd-suggested-middle-text {
-    color: white;
+    color: rgb(110, 118, 125);
     font-size: 13px;
+    font-weight: bold;
 }
 
 .wd-stacked-text {
-    width: calc(100% - 132px);
     float: left;
 }
 
 .wd-suggested-image-div {
-    float:right;
+    /* float:inline-end; */
     margin-top: 8px;
     margin-bottom: 4px;
 }
@@ -89,6 +103,34 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 12px;
-    position: relative;
-    
+}
+
+.wd-profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%
+}
+
+.wd-tuit-button {
+    border-radius: 20px;
+    width: 95%;
+}
+
+.wd-side-col-upper {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.wd-side-col {
+    border: 1px solid darkgray;
+    width: 95%;
+}
+
+.wd-side-col-bottom {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.wd-follow-text {
+    width: 100px;
 }

@@ -1,101 +1,325 @@
 <!DOCTYPE html>
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="wd-A-parent-div">
-        <div class="wd-A-search-bar">
-            <input class="wd-A-search-bar" placeholder="Search Tuiter">
-        </div>
-        <div>
-            <a href="explore-settings.html">
-                <img src="gear.png" class="wd-A-gear">
-            </a>
-        </div>
-    </div>
+    <div class="container">
+        <br>
+        <div class="row">
+            <!-- Spacer -->
+            <div class="col-xxl-1 d-xxl-block
+            col-lg-0 d-lg-none
+            col-md-0 d-md-none
+            col-sm-0 d-sm-none"></div>
 
 
-    <div class="wd-B-parent-div">
-        <div class="wd-B-tab wd-B-selected-tab"><a>For you</a></div>
-        <div class="wd-B-tab"><a>Trending</a></div>
-        <div class="wd-B-tab"><a>COVID-19</a></div>
-        <div class="wd-B-tab"><a>News</a></div>
-        <div class="wd-B-tab"><a>Sports</a></div>
-        <div class="wd-B-tab"><a>Entertainment</a></div>
-    </div>
+            <div class="col-xxl-2 d-xxl-block
+            col-xl-3 d-xl-block
+            col-lg-3 d-lg-block 
+            col-md-2 d-md-block
+            col-sm-2 d-sm-block">
+                <div class="row flex-row f-flex wd-side-col-upper wd-side-col pt-2 pb-2">
+                    <p class="mb-0"><i class="fab fa-twitter"></i></p>
+                </div>
 
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Home</p>
+                    </div>
+                </div>
 
-    <div class="wd-suggested-parent-div">
-        <p class="wd-suggested-small-text">Trending in Science</p>
-        <p class="wd-suggested-large-text">Starship</p>
-        <p class="wd-suggested-small-text">55.8K Tuits</p>
-    </div>
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-hashtag"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Explore</p>
+                    </div>
+                </div>
 
-    <div class="wd-suggested-parent-div">
-        <p class="wd-suggested-small-text">Sports - Trending</p>
-        <p class="wd-suggested-large-text">Joe Rogan</p>
-        <p class="wd-suggested-small-text">5,216 Tuits</p>
-    </div>
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-bell"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Notifications</p>
+                    </div>
+                </div>
 
-    <div class="wd-suggested-parent-div wd-has-border">
-        <div class="wd-stacked-text">
-            <div>
-                <p class="wd-suggested-small-text">
-                    <span class="wd-suggested-middle-text">
-                        The New York Times&nbsp;
-                    </span>
-                    Yesterday
-                </p>
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Messages</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-bookmark"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Bookmarks</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-list"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Lists</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row d-flex flex-nowrap wd-side-col pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">Profile</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row d-flex flex-nowrap wd-side-col wd-side-col-bottom pt-2 pb-2">
+                    <div class="col-1">
+                        <i class="fa fa-minus-circle"></i>
+                    </div>
+                    <div class="col d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                        <p class="mb-0">More</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row d-flex flex-nowrap mt-3">
+                    <button class="btn btn-primary wd-tuit-button">Tuit</button>
+                </div>
             </div>
-            <p class="wd-suggested-large-text">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
-        </div>
 
-        <div class="wd-suggested-image-div">
-            <img class="wd-suggested-image"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4n_urpJ9XpwOTdzBVbGvactwHrPagYQrTJPYjxfxLGkSyu7nJZVqRVGAeohnPgKMrnKE&usqp=CAU">
-        </div>
-    </div>
+            <div class="col-xxl-6 d-xxl-block 
+            col-xl-6 d-xl-block
+            col-lg-6 d-lg-block 
+            col-md-10 d-md-block
+            col-sm-10 d-sm-block">
 
-    <div class="wd-suggested-parent-div wd-has-border">
-        <div class="wd-stacked-text">
-            <div>
-                <p class="wd-suggested-small-text">
-                    COVID-19 Live
-                </p>
+                <div class="row">
+                    <div class="col-11">
+                        <div class="input-group">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"
+                                        aria-hidden="true"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Search Tuiter"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-cog fa-2x"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="for-you.html">For You</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trending.html">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sports.html">Sports</a>
+                        </li>
+                        <li class="nav-item d-sm-none">
+                            <a class="nav-link" href="entertainment.html">Entertainment</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row mt-2 position-relative">
+                    <img style="width:100%" src="https://geekerhertz.com/images/5f3ce6658154d.jpg">
+
+                    <p class="wd-image-text 
+                        position-absolute">SpaceX's Starship</p>
+                </div>
+
+                <div class="row wd-suggested-parent-div pt-2 pb-2">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div>
+                            <p class="wd-suggested-small-text mb-0">Web Development</p>
+                            <div>
+                                <p class="wd-suggested-small-text">
+                                    <span class="wd-suggested-middle-text">
+                                        ReactJS&nbsp;
+                                    </span>
+                                    - 2h
+                                </p>
+                            </div>
+                            <p class="wd-suggested-large-text me-1 font-weight-normal">React.js is a component based
+                                front end library that makes it very easy to build Single Page Applications or SPAs</p>
+                        </div>
+                        <div>
+                            <img class="wd-suggested-image align-self-end"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixy.org%2Fsrc%2F21%2F219269.jpg&f=1&nofb=1&ipt=a1d94ca70aea67eb2f708bc66ab0b048c79883cf15f3155221d3dfa6f33b75fe&ipo=images">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row wd-suggested-parent-div pt-2 pb-2">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div>
+                            <div>
+                                <p class="wd-suggested-small-text">
+                                    <span class="wd-suggested-middle-text">
+                                        The New York Times&nbsp;
+                                    </span>
+                                    Yesterday
+                                </p>
+                            </div>
+                            <p class="wd-suggested-large-text  me-1">CNN's Cuomo conundrum: A star anchor with a brother
+                                in
+                                trouble</p>
+                        </div>
+                        <div>
+                            <img class="wd-suggested-image align-self-end"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixy.org%2Fsrc%2F21%2F219269.jpg&f=1&nofb=1&ipt=a1d94ca70aea67eb2f708bc66ab0b048c79883cf15f3155221d3dfa6f33b75fe&ipo=images">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row wd-suggested-parent-div pt-2 pb-2">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div>
+                            <p class="wd-suggested-small-text mb-0">Web Development</p>
+                            <div>
+                                <p class="wd-suggested-small-text mb-0">
+                                    <span class="wd-suggested-middle-text">
+                                        JQuery&nbsp;
+                                    </span>
+                                </p>
+                            </div>
+                            <p class="wd-suggested-small-text me-1">123K Tuits</p>
+                        </div>
+                        <div>
+                            <img class="wd-suggested-image align-self-end"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixy.org%2Fsrc%2F21%2F219269.jpg&f=1&nofb=1&ipt=a1d94ca70aea67eb2f708bc66ab0b048c79883cf15f3155221d3dfa6f33b75fe&ipo=images">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row wd-suggested-parent-div pt-2 pb-2">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div>
+                            <p class="wd-suggested-small-text mb-0">Web Development</p>
+                            <div>
+                                <p class="wd-suggested-small-text mb-0">
+                                    <span class="wd-suggested-middle-text">
+                                        NodeJS&nbsp;
+                                    </span>
+                                </p>
+                            </div>
+                            <p class="wd-suggested-small-text me-1">123K Tuits</p>
+                        </div>
+                        <div>
+                            <img class="wd-suggested-image align-self-end"
+                                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixy.org%2Fsrc%2F21%2F219269.jpg&f=1&nofb=1&ipt=a1d94ca70aea67eb2f708bc66ab0b048c79883cf15f3155221d3dfa6f33b75fe&ipo=images">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <p class="wd-suggested-large-text">COVID-19: News and updates for Massachusetts</p>
-        </div>
 
-        <div class="wd-suggested-image-div">
-            <img class="wd-suggested-image"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4n_urpJ9XpwOTdzBVbGvactwHrPagYQrTJPYjxfxLGkSyu7nJZVqRVGAeohnPgKMrnKE&usqp=CAU">
-        </div>
-    </div>
+            <div class="col-xxl-3 d-xxl-block 
+                col-xl-3 d-xl-block
+                col-lg-3 d-lg-block 
+                d-md-none d-sm-none">
 
-    <div class="wd-suggested-parent-div wd-has-border">
-        <div class="wd-stacked-text">
-            <div>
-                <p class="wd-suggested-small-text">
-                    <span class="wd-suggested-middle-text">
-                        Bloomberg Opinion&nbsp;
-                    </span>
-                    Yesterday
-                </p>
+                <div class="ms-2">
+                    <div class="row wd-side-col wd-side-col-upper pt-2 pb-2">
+                        <p class="mb-0">Who to follow</p>
+                    </div>
+
+                    <div class="row wd-side-col pb-2 pt-2 pe-2 flex-row d-flex position-relative align-items-stretch">
+                        <div class="col-3 float-left">
+                            <img class="wd-profile-image ps-0 pe-0"
+                                src="https://pbs.twimg.com/profile_images/1410016948977422337/rKU8iR89_400x400.png">
+                        </div>
+                        <div class="col ps-2 pt-2 mt-1 text-nowrap text-truncate">
+                            <p class="wd-suggested-large-text">Java</p>
+                            <p class="wd-suggested-small-text mt-2">@Java</p>
+                        </div>
+                        <div class="col-5 right me-0 pe-0">
+                            <button class="btn btn-primary wd-tuit-button">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="row wd-side-col pb-2 pt-2 pe-2 position-relative">
+                        <div class="col-3 float-left">
+                            <img class="wd-profile-image ps-0 pe-0"
+                                src="https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL_400x400.jpg">
+                        </div>
+                        <div class="col ps-2 pt-2 mt-1 text-nowrap text-truncate">
+                            <p class="wd-suggested-large-text">Relativity Space</p>
+                            <p class="wd-suggested-small-text mt-2">@relativityspace</p>
+                        </div>
+                        <div class="col-5 right me-0 pe-0">
+                            <button class="btn btn-primary wd-tuit-button">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="row wd-side-col pb-2 pt-2 pe-2 position-relative">
+                        <div class="col-3 float-left">
+                            <img class="wd-profile-image ps-0 pe-0"
+                                src="https://pbs.twimg.com/profile_images/1552524922768879616/uwIfUsmz_400x400.jpg">
+                        </div>
+                        <div class="col ps-2 pt-2 mt-1 text-nowrap text-truncate">
+                            <p class="wd-suggested-large-text">Virgin Galactic</p>
+                            <p class="wd-suggested-small-text mt-2">@virgingalactic</p>
+                        </div>
+                        <div class="col-5 right me-0 pe-0">
+                            <button class="btn btn-primary wd-tuit-button">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="row wd-side-col pb-2 pt-2 pe-2 position-relative">
+                        <div class="col-3 float-left">
+                            <img class="wd-profile-image ps-0 pe-0"
+                                src="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg">
+                        </div>
+                        <div class="col ps-2 pt-2 mt-1 text-nowrap text-truncate">
+                            <p class="wd-suggested-large-text">NASA</p>
+                            <p class="wd-suggested-small-text mt-2">@nasa</p>
+                        </div>
+                        <div class="col-5 right me-0 pe-0">
+                            <button class="btn btn-primary wd-tuit-button">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="row wd-side-col wd-side-col-bottom pb-2 pt-2 pe-2 position-relative">
+                        <div class="col-3 float-left">
+                            <img class="wd-profile-image ps-0 pe-0"
+                                src="https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png">
+                        </div>
+                        <div class="col ps-2 pt-2 mt-1 text-nowrap text-truncate">
+                            <p class="wd-suggested-large-text">Tesla</p>
+                            <p class="wd-suggested-small-text mt-2">@tesla</p>
+                        </div>
+                        <div class="col-5 right me-0 pe-0">
+                            <button class="btn btn-primary wd-tuit-button">Follow</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="wd-suggested-large-text">Thinking about getting a booster? Read this first.</p>
         </div>
-
-        <div class="wd-suggested-image-div">
-            <img class="wd-suggested-image"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4n_urpJ9XpwOTdzBVbGvactwHrPagYQrTJPYjxfxLGkSyu7nJZVqRVGAeohnPgKMrnKE&usqp=CAU">
-        </div>
-    </div>
-
-    <div class="wd-suggested-parent-div">
-        <p class="wd-suggested-small-text">Trending in United States</p>
-        <p class="wd-suggested-large-text">Wonder Bread</p>
-        <p class="wd-suggested-small-text">1,259 Tuits</p>
     </div>
 </body>
