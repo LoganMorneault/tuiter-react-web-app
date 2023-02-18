@@ -17,7 +17,7 @@ body {
 
 .wd-image-text {
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     /* Bootstrap requires some SASS configuration that I don't think I have access to. */
     left: 10px;
     bottom: -5px;
@@ -133,4 +133,26 @@ body {
 
 .wd-follow-text {
     width: 100px;
+}
+
+.wd-suggested-username-text {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-suggested-title-text {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wd-suggested-time-text {
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(110, 118, 125)
+}
+
+.wd-blue {
+    color: #2a9fd6;
 }
