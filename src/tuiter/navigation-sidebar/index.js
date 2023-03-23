@@ -8,11 +8,11 @@ const NavigationSidebar = (
   return (
     <div className="list-group">
       <a href="/" className="list-group-item">Tuiter</a>
-      <a href="/" className={`list-group-item
+      <a href="/tuiter" className={`list-group-item
                     ${active === 'home' ? 'active' : ''}`}>
         Home
       </a>
-      <a href="/" className={`list-group-item
+      <a href="/tuiter/explore" className={`list-group-item
                     ${active === 'explore' ? 'active' : ''}`}>
         Explore
       </a>

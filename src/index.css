@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.handle-text {
+  color: gray;
+  font-size: 13px;
+}
+
+.tuit-text {
+  font-size: 14px;
+  padding-left: 12px;
+  margin-left: 48px;
+}
+
+.pfp-col-fixed-width {
+    flex: 0 0 48;
+    color: black;
+}
+
+.tuit-avatar-icon {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
